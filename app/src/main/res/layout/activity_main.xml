@@ -5,13 +5,17 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo"
     tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/lbl_text"
-        android:layout_width="231dp"
-        android:layout_height="51dp"
+        android:layout_width="329dp"
+        android:layout_height="100dp"
         android:text="Servicio Web"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.541"
@@ -21,19 +25,28 @@
 
     <Button
         android:id="@+id/btn_boton"
-        android:layout_width="184dp"
-        android:layout_height="54dp"
-        android:text="Button"
+        android:layout_width="314dp"
+        android:layout_height="99dp"
+        android:background="@color/black"
+        android:text="Conectar"
+        android:textColor="@color/white"
+        android:textSize="50dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.416" />
 
     <TextView
         android:id="@+id/lbl_HM"
-        android:layout_width="233dp"
-        android:layout_height="35dp"
-        android:text="TextView"
+        android:layout_width="235dp"
+        android:layout_height="118dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
